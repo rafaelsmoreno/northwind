@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: erp
+    schema: erp_northwind
+    description: Fonte de dados de vendas do ERP da Northwind
+    tables:
+      - name: employees
+        columns:
+          - name: employee_id
+            tests:
+              - unique
+              - not null
