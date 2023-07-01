@@ -1,0 +1,10 @@
+version: 2
+models:
+  - name: dim_employees
+    description: Dimensão de funcionários da Northwind.
+    columns:
+      - name: funcionario_id
+        description: Chave primária da tabela funcionários.
+        tests:
+          - unique
+          - not_null
