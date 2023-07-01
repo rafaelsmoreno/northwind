@@ -10,4 +10,4 @@ sources:
           - name: employee_id
             tests:
               - unique
-              - not null
+              - not_null
